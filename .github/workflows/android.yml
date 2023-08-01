@@ -1,7 +1,6 @@
-name: Android CI
+name: Tag differ test
 
 on:
-  - pull_request
   - push
 
 jobs:
