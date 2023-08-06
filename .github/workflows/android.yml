@@ -10,4 +10,5 @@ jobs:
       - uses: invertase/quickstart-tag-differ@feat/v1
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
+          base-ref: master
           repo-url: https://github.com/firebase/quickstart-android.git
