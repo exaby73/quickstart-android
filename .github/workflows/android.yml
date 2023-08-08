@@ -7,8 +7,8 @@ jobs:
   tag-differ:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v3
       - uses: invertase/quickstart-tag-differ@feat/v1
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
           base-ref: master
           repo-url: https://github.com/firebase/quickstart-android.git
