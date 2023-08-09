@@ -9,5 +9,3 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - uses: invertase/quickstart-tag-differ@feat/v1
-        with:
-          repo-url: https://github.com/firebase/quickstart-android.git
