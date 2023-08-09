@@ -75,9 +75,13 @@ public class MainActivity extends AppCompatActivity {
     /**
      * The {@code FirebaseAnalytics} used to record screen views.
      */
-    // [START declare_analyticss]
+    // [START declare_analytics]
     private FirebaseAnalytics mFirebaseAnalytics;
-    // [END declare_analyticss]
+    // [END declare_analytics]
+
+    // [START another_one]
+    // Does it capture comments?
+    // [END another_one]
 
     /**
      * The user's favorite food, chosen from a dialog.
