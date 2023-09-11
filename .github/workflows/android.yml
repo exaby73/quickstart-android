@@ -11,4 +11,4 @@ jobs:
       - uses: invertase/quickstart-tag-differ@feat/v1
         with:
           base-ref: master
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+          github-token: ${{ github.token }}
