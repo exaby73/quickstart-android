@@ -3,6 +3,9 @@ name: Tag Differ
 on:
   - pull_request
 
+permissions:
+  pull-requests: write
+
 jobs:
   tag-differ:
     runs-on: ubuntu-latest
