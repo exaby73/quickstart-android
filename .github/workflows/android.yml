@@ -15,3 +15,4 @@ jobs:
         with:
           base-ref: master
           github-token: ${{ github.token }}
+          included-change-types: file_path,code_contents
